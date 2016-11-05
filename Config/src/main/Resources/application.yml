@@ -8,3 +8,9 @@ spring:
         git:
           uri: https://github.com/peterdyf/SpringCloudSamples
           searchPaths: data
+  rabbitmq:
+     addresses: localhost:5672
+     adminAddresses: http://localhost:15672
+     nodes: rabbit@localhost
+     username: guest
+     password: guest
