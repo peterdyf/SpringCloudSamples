@@ -1,4 +1,4 @@
-package com.test.cloud;
+package com.test.config;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
