@@ -1,4 +1,6 @@
 SpringCloud.iml
 .idea
-/Client/Client.iml
 /Config/Config.iml
+/Eureka/Eureka.iml
+/ConfigClient/ConfigClient.iml
+/EurekaClient/EurekaClient.iml
