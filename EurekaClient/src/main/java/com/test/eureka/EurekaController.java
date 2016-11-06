@@ -9,8 +9,11 @@ import java.util.Random;
 @RestController
 public class EurekaController {
 
+    public static final String NAME="N"+new Random().nextInt(100);
+
+
     @RequestMapping("/")
     public  String get() {
-        return String.valueOf(new Random().nextInt(1000));
+        return String.valueOf(NAME+":"+new Random().nextInt(1000));
     }
 }
