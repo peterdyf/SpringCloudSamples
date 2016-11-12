@@ -1,3 +1,8 @@
 spring:
   application:
     name: eureka-client-subject
+
+# to distinguish the multiple service in the same host
+eureka:
+     instance:
+       instanceId: ${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id:${random.value}}
