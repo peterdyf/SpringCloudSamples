@@ -11,6 +11,8 @@
     <module>Eureka</module>
     <module>EurekaClient</module>
     <module>EurekaConsumer</module>
+    <module>FeignConsumer</module>
+    <module>HystrixConsumer</module>
   </modules>
   <packaging>pom</packaging>
 

@@ -5,3 +5,5 @@ SpringCloud.iml
 /ConfigClient/ConfigClient.iml
 /EurekaClient/EurekaClient.iml
 /EurekaConsumer/EurekaConsumer.iml
+/HystrixConsumer/HystrixConsumer.iml
+/FeignConsumer/FeignConsumer.iml
