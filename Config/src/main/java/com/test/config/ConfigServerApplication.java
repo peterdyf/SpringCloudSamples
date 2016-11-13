@@ -4,6 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.config.server.EnableConfigServer;
 
+//rabbitmq-server
 //http://localhost:8001/config-client/default/
 //POST http://localhost:8001/bus/refresh
 @EnableConfigServer
